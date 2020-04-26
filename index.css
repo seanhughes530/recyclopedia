@@ -59,6 +59,25 @@
   float:right;
   text-decoration: none;
   color:#278126;
+  border: 1px solid #278126;
+  padding:16px 32px;
+  border-radius: 15px;
+  transition: ease 0.5s;
+}
+
+.contact:hover{
+  float:right;
+  color:white;
+  text-decoration: none;
+  background-color:#278126;
+  border: 1px solid #278126;
+  transition: ease 0.5s;
+  padding:16px 32px;
+  border-radius: 15px;
+}
+
+.contact-mobile{
+  display:none;
 }
 
 .writeup{
@@ -80,7 +99,7 @@
 }
 
 
-.bins{
+.plants{
   width:40%;
   position:fixed;
   bottom:0;
@@ -90,8 +109,15 @@
 
 
 @media only screen and (max-width: 900px){
-  .contact{
-    display:none;
+  .contact-mobile{
+    display:block;
+    float:left;
+    margin-top:10%;
+    text-decoration: none;
+    color:#278126;
+    border: 1px solid #278126;
+    padding:16px 32px;
+    border-radius: 15px;
   }
 
   .logo{
@@ -104,9 +130,9 @@
   }
 
   .inside-top-left{
-    width:80%;
-    margin:5% 10%;
-    text-align:center;
+    width:100%;
+    margin:5% 0;
+    text-align:left;
   }
 
   .inside-top-right{
@@ -115,7 +141,7 @@
 
   .content-block{
     width:80%;
-    margin:10% 10% 0 10%;
+    margin:0% 10% 0 10%;
     font-size:1em;
     text-align: left;
   }
@@ -126,7 +152,7 @@
     text-align: left;
   }
 
-  .bins{
+  .plants{
     width:80%;
     position:absolute;
     bottom:0;
