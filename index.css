@@ -111,7 +111,7 @@
   .contact-mobile{
     display:block;
     float:left;
-    margin-top:10%;
+    margin-top:15%;
     text-decoration: none;
     color:#278126;
     border: 1px solid #278126;
@@ -161,6 +161,7 @@
     position:relative;
     bottom:0;
     left:20%;
+    vertical-align:bottom;
   }
 
 }
