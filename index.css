@@ -89,8 +89,7 @@
 }
 
 
-@media only screen and (max-width: 600px)
-and (-webkit-device-pixel-ratio: 2){
+@media only screen and (max-width: 900px){
   .contact{
     display:none;
   }
